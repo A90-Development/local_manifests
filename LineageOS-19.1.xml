@@ -8,7 +8,7 @@
 
         <!-- Sync trees -->
 	<project path="device/samsung/r3q" name="device_samsung_r3q" remote="dev" revision="lineage-19.1"/>
-	<project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="dev" revision="lineage-19.1"/>
+	<project path="device/samsung_slsi/sepolicy" name="device_samsung_slsi_sepolicy" remote="dev" revision="lineage-19.1"/>
 	<project path="hardware/samsung" name="hardware_samsung" remote="dev" revision="lineage-19.1" />
 	<project path="kernel/samsung/r3q" name="kernel_samsung_r3q" remote="dev" revision="CAF-test" />
 	<project path="vendor/samsung/r3q" name="vendor_samsung_r3q" remote="dev" revision="12"/>
