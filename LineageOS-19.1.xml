@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote name="dev"
+		fetch="https://github.com/A90-Development" />
+
+	<remote name="lineage-custom"
+		fetch="https://github.com/LineageOS" />
+
+        <!-- Sync trees -->
+	<project path="device/samsung/r3q" name="device_samsung_r3q" remote="dev" revision="lineage-19.1"/>
+	<project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="dev" revision="lineage-19.1"/>
+	<project path="hardware/samsung" name="hardware_samsung" remote="dev" revision="lineage-19.1" />
+	<project path="kernel/samsung/r3q" name="kernel_samsung_r3q" remote="dev" revision="CAF-test" />
+	<project path="vendor/samsung/r3q" name="vendor_samsung_r3q" remote="dev" revision="12"/>
+	<project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="lineage-custom" revision="lineage-19.1" />
+        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="lineage-custom" revision="lineage-19.1" />
+        <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="lineage-custom" revision="lineage-19.1" />
+</manifest>
